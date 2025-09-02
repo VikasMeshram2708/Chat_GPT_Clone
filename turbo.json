@@ -15,7 +15,13 @@
     },
     "dev": {
       "cache": false,
-      "persistent": true
+      "persistent": true,
+      "env": [
+        "GOOGLE_CLIENT_ID",
+        "GOOGLE_CLIENT_SECRET",
+        "AUTH_SECRET",
+        "DATABASE_URL"
+      ]
     }
   }
 }
