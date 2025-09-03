@@ -153,7 +153,7 @@ export default function SignInPage() {
                 className="w-full py-3 px-4 bg-white hover:bg-gray-50 border border-gray-300 text-gray-700 font-medium rounded-lg transition-all duration-200 ease-in-out hover:shadow-md focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
                 onClick={() =>
                   signIn("google", {
-                    callbackUrl: "/d/profile",
+                    callbackUrl: "/d/chat",
                   })
                 }
                 type="button"
